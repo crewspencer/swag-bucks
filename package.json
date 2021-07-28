@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/crewspencer/RevU.git"
+    "url": "git+https://github.com/crewspencer/swag-bucks.git"
   },
   "author": "Crew Spencer",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/crewspencer/RevU/issues"
+    "url": "https://github.com/crewspencer/swag-bucks/issues"
   },
-  "homepage": "https://github.com/crewspencer/RevU#readme",
+  "homepage": "https://github.com/crewspencer/swag-bucks#readme",
   "engines": {
     "node": "16.4.2"
   },
