@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <link href="public/style.css"  rel="stylesheet" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="headerBackground">
+        <div id="contestHeader">
+            <a href="https://www.swagbucks.com/" target="_blank"><img id="sbLogo" src="https://i.ibb.co/sbRvXhP/swagbucks-logo.png" width="200px"></a>
+
+            </div>
+            <div id="nav">
+              <li class="navPadding"><a id="link" href="#id2">Rules</a></li>
+    
+              <li class="navPadding"><a id="link" href="#id3">Prizes</a></li>
+          </div>
+
+
+            <div id="pointPosition">
+                <div class="row">
+
+                  <div class="column">
+                    <h2>Current<br> position</h2>
+                    <div id="position">
+                      <h2>#1</h2>
+                    </div>
+                    <div id="columnSpacing"></div>
+                  </div>
+                    <div class="column">
+                      <h2 id="timeSize">Time left<br> to win!</h2>
+                      <div id="position2">
+                        <h2>72 Hours 13 Minutes</h2>
+                      </div>
+                    </div>
+
+                    <div class="column">
+                      <h2>Person in<br> first has</h2>
+                      <div id="position1">
+                        <h2>13,000 SB </h2>
+                      </div>
+                    </div>
+                  </div>
+        </div>
+
+    </div>
+
+
+<div id="offerWall">
+<iframe src="https://publishers.revenueuniverse.com/mobile/102/offers?uid=testUID"  width="100%" height="550px" scrolling="auto">
+</iframe>
+</div>
+<a name="id2"> </a>
+
+<div id="rules">
+
+
+
+    <div id="ruleTitle">
+        <h2> How To Play </h2>
+        </div>
+        <div id="listItems">
+<li>Step 1<br>
+  Check out the available offers from Revenue Universe to earn valuable SB.</li> <br>
+<li>Step 2<br>
+  Every time you complete an offer through Revenue Universe, you not only earn SB, but you increase your standing in the contest.  
+    </li><br>
+<li>Step 3<br>
+  The top 75 members who earn the most SB throughout the contest will win the prize associated with their position below!</li><br>
+<li>Step 4<br>
+  Make sure to bookmark this page and check back every day for new offers, and for special promotions to earn more SB!</li><br>
+<li>Step 5<br>
+  Earn as many SB as you can now through September 10, 2021 to earn your share of 750,000 SB!</li><br>
+</div>
+<a name="id3"></a>
+
+<div id="prizeTitle">
+  <h2> Prizes </h2> 
+</div>
+<div id="prizeSection">
+  <div class="row1">
+    <div class="prizeColumn">First Place</div>
+
+    <div class="prizeColumn">
+      <div id="position3">
+        <h2>250,000 SB</h2>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="row2">
+    <div class="prizeColumn">Second Place</div>
+
+    <div class="prizeColumn">
+      <div id="position3">
+        <h2>125,000 SB</h2>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="row1">
+    <div class="prizeColumn">Third Place</div>
+
+    <div class="prizeColumn">
+      <div id="position3">
+        <h2>75,000 SB</h2>
+      </div>
+    </div>
+  </div>
+</div>
+<a id="officialRules" href="https://www.revenueuniverse.com/contestrules/rules_11.html" target="_blank">See official contest rules here</a>
+<br>
+<footer>Copyright 2021 © <a id="footer" href="https://revu.co/"> Revenue Universe</a>
+</footer>
+
+</div>
+</body>
+
+<style>
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  border-radius: 20px;
+}
+.row2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  border-radius: 20px;
+  padding-right:7px;
+}
+
+.prizeColumn {
+  display: flex;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  margin-top: 20px;
+  float: left;
+  width: 30%;
+  padding: 5px;
+  height: 100px; 
+  margin: 10px;
+  font-size: 10px;
+}
+
+
+
+</style>
+<script src="app.js"></script>
+<script>
+    function scrollToAnchor(aid){
+    var aTag = $("a[name='"+ aid +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+
+   scrollToAnchor('id3');
+   scrollToAnchor('id2');
+
+
+</script>
+</html>

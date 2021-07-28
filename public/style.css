@@ -1,0 +1,212 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  margin: 0;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#headerTitle {
+  padding: 10px;
+  padding-right:10px;
+}
+
+#headerBackground {
+  background-image: linear-gradient(5deg, #4083a9, rgba(27,83,120,1.0));
+  padding-bottom: 10px;
+}
+#pointPosition {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 12px;
+  height: 150px;
+  margin-top: -5px; 
+  margin-bottom: -20px;
+
+}
+#cmLogo {
+  height: 50px;
+  width: 50px;
+}
+#contestHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 15px;
+  height: 20px;
+  padding-top: 35px;
+  padding-left: 10px;
+
+}
+
+@media screen and (max-width: 1000px) {
+  #rules {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    padding: 25px;
+    background-image: linear-gradient(120deg, #4083a9, rgba(27,83,120,1.0));
+  }
+  #ruleTitle {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  #prizeTitle {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    padding-top: 20px;
+
+  }
+  #prizeSection {
+    justify-content: center;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #rules {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    background-image: linear-gradient(140deg, #4083a9, rgba(27,83,120,1.0));
+  }
+  #ruleTitle {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+  #listItems {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  #prizeTitle {
+    display: flex;
+    justify-content: center;
+  }
+  #prizeSection {
+    padding-top: 20px;
+  }
+}
+
+#position {
+  color: black;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid black;
+  font-size: 8px;
+  padding: 10px;
+  /* word-break: break-all; */
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #ffffff !important;
+}
+
+#position2 {
+  color: black;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid black;
+  font-size: 8px;
+  padding: 2px;
+  margin-bottom:100px;
+  /* word-break: break-all; */
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #ffffff !important;
+}
+
+#position1 {
+  color: black;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid black;
+  font-size: 8px;
+  padding: 10px;
+  /* word-break: break-all; */
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #ffffff !important;
+}
+#position3 {
+  color: black;
+  text-align: center;
+  justify-content: center;
+  font-size: 8px;
+  padding: 10px;
+  /* word-break: break-all; */
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #ffffff !important;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: black;
+  scroll-behavior: smooth;
+}
+#nav {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding-top: -5px;
+  padding-right: 15px;
+}
+.navPadding {
+  display: flex;
+  align-items:center;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 3px;
+  height: 25px;
+  color: black;
+  font-size: 10px;
+  cursor: pointer;
+  margin-right:3px;
+  margin-left:3px;
+
+}
+
+
+
+#prizeSection {
+  height: 300px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  color:rgb(173, 199, 216);
+}
+#footer{
+  padding-left:5px;
+  color:rgb(173, 199, 216);
+}
+
+#officialRules{
+  display: flex;
+  justify-content: center;
+  color:rgb(173, 199, 216);
+}
