@@ -115,7 +115,7 @@ body::-webkit-scrollbar {
   /* word-break: break-all; */
   display: flex;
   align-items: center;
-  border-radius: 30px;
+  border-radius: 15px;
   background-color: #ffffff !important;
 }
 
@@ -130,7 +130,7 @@ body::-webkit-scrollbar {
   /* word-break: break-all; */
   display: flex;
   align-items: center;
-  border-radius: 30px;
+  border-radius: 15px;
   background-color: #ffffff !important;
 }
 
@@ -144,7 +144,7 @@ body::-webkit-scrollbar {
   /* word-break: break-all; */
   display: flex;
   align-items: center;
-  border-radius: 30px;
+  border-radius: 15px;
   background-color: #ffffff !important;
 }
 #position3 {
